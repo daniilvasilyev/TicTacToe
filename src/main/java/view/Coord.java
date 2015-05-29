@@ -1,7 +1,14 @@
 package view;
 
-/**
- * Created by Student09 on 28.05.2015.
- */
+//пара точек, определяющая клетку поля
 public class Coord {
+
+    public int x;
+    public int y;
+
+    public Coord( int _x, int _y ) {
+        this.x = _x;
+        this.y = _y;
+    }
+
 }

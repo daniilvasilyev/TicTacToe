@@ -1,8 +1,12 @@
 package model;
 
-/**
- * Состояние клетки поля
- */
+//Состояние клетки поля
 public enum Cell {
-    X, O, EMPTY
+    X( "X" ), O ( "O" ), EMPTY ( "_" );
+
+    public final String presetation;
+    Cell(String x)
+    {
+        presetation = x;
+    }
 }
